@@ -1,0 +1,131 @@
+.header {
+    background-position: center;
+    text-align: center;
+}
+
+.header img {
+    width: 70%;
+    height: 40%;
+    border-radius: 90%;
+    border-top: solid 10px black;
+    border-bottom: solid 10px black;
+    border-right: solid 10px black;
+    border-left: solid 10px black;
+}
+
+.body {
+    background-image: url("pattern.jpg");
+}
+
+.center {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+menu li {
+    background: black;
+    color: whitesmoke;
+    width: 115px;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    margin: 3px 0px 0px 0px;
+    transition-duration: 1s;
+}
+
+menu li a:hover {
+    background-color: beige;
+    color: black;
+    -webkit-transition-duration: 1s;
+}
+
+.article {
+    background-color: black;
+    width: 70%;
+}
+
+.section {
+    text-align: center;
+    background-color: antiquewhite;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    border-radius: 10%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.section2 {
+    text-align: center;
+    background-color: antiquewhite;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 90%;
+    border-radius: 10%;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+.section img {
+    text-align: center;
+    width: 380px;
+    height: 225px;
+    border-radius: 10%;
+    opacity: 0.5;
+    background-color: lightpink;
+    border: 3px double #fff;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.section2 img {
+    text-align: center;
+    width: 464px;
+    height: 347px;
+    border-radius: 10%;
+    background-color: lightpink;
+    border: 3px double #fff;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.section img:hover {
+    text-align: center;
+    width: 380px;
+    height: 225px;
+    border-radius: 0px;
+    opacity: 1;
+    background-color: lightpink;
+    border: 3px double #fff;
+    box-shadow: 5px 15px 10px lightslategray;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.footer {
+    background-color: black;
+    width: 70%;
+    color:antiquewhite;
+    font-family: 'Times New Roman', Times, serif0;
+    font-size: 15px;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+    width: 9px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 5px;
+}
